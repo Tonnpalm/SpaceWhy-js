@@ -1,0 +1,44 @@
+.containerHRank {
+    background: url('bgRank.svg');
+    width: 390px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.banner-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.imgHRank {
+    display: flex;
+    margin-left: 27px;
+    margin-top: 27px;
+}
+
+.headHRank {
+    color: white;
+    margin-top: 21.21px;
+}
+
+.nameHRank {
+    color: white;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;    
+}
+
+.profilepic {
+    margin-top: 20px;
+    width: 130px;
+}
+ 
+.pointHRank {
+    margin-top: 1px;
+    color: #EF940C;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+}

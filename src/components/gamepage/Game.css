@@ -1,0 +1,103 @@
+/*set boundary of page*/
+.container {
+    max-width: 390px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*set bg that is picture*/
+.bg-blur1 {
+    height: 844px;
+    width: 390px;
+    background: url('Ellipse1.svg');
+    background-repeat:no-repeat;
+    background-size: 100%;
+
+}
+
+/*set text "เกมตอบคำถาม"*/
+.head {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: white;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 270px;
+    
+}
+
+/*set text "เลือกคำตอบ"*/
+.head2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+}
+
+/* จัดกึี่งกลางให้หน้า */
+.topic {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.btnAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 152px;
+    margin-left: 68px;
+}
+
+/*set button "เล่น"*/
+.btn1spec {
+    font-size: 20px;
+    line-height: 23px;
+    color: #480F91;
+    background: #F5F5F5;
+    border-radius: 30px;
+    padding: 11px 60px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    margin-top: 47px;
+
+}
+
+/*set button "ยกเลิก"*/
+button.btn2spec {
+    font-size: 20px;
+    line-height: 23px;
+    color: #F5F5F5;
+    background: #480F91;
+    border-radius: 30px;
+    padding: 11px 47px;
+    text-decoration: none;
+    border: 2px solid;
+    transition: 0.3s;
+    margin-top: 17px;
+}
+
+/*set character of input*/
+.form-control {
+    background-color: #FFFFFF;
+    width: 292px;
+    height: 43px;
+    margin-top: -50px;
+}
+
+/*set position of input*/
+.form-group{
+    margin-top: 200px;
+    align-items: center;
+}

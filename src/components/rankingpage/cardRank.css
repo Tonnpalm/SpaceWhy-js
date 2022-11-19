@@ -1,0 +1,56 @@
+.marginTop {
+    margin-top: 12px;
+}
+
+.RankCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sizePicRank {
+    width: 50px;
+    margin-right: 5px;
+
+}
+
+.textRanking {
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.orderRank {
+    margin-left: 4px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pointInRankcard {
+    margin-left: 104px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 22px;
+}
+
+.insideRankCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardRank {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.MuiCardContent-root.insideRankCard.css-46bh2p-MuiCardContent-root {
+    padding-bottom: 0px;
+}

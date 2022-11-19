@@ -1,0 +1,29 @@
+.bgRank {
+    background-color: white;
+    height: 1180px;
+    margin-top: 336px;
+}
+
+.containerRank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 1180px;
+}
+
+.banner-Rank {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: -12px;
+    margin-top: 27px;
+}
+.textPosition1 {
+    margin-left: 40px;
+}
+.textPosition2 {
+    margin-left: 47px;
+}
+.textPosition3 {
+    margin-left: 140px;
+}

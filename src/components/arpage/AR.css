@@ -1,0 +1,73 @@
+/*set boundary of the page*/
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    max-width: 390px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+/*set position of the text "AR"*/
+.ar {
+    position: absolute;
+    width: 118px;
+    height: 46px;
+    left: 136px;
+    top: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*set item position*/
+.detail {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: -30px;
+}
+
+/*set characteristic button 'cancel'*/
+.cancel {
+    box-sizing: border-box;
+    position: absolute;
+    width: 152px;
+    left: 119px;
+    top: 740px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+/*set bg that is picture*/
+.ellipsee {
+    height: 844px;
+    width: 390px;
+    background: url('Ellipse1.svg');
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+/*set text in the picture slot*/
+.textinpic {
+    display: flex;
+    align-items: flex-start;
+}
+
+/*set text*/
+.textext {
+    display: flex;
+    flex-direction: column;
+
+}

@@ -1,0 +1,60 @@
+/*set boundary of the page*/
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 1180px;
+    width: 820px;
+}
+
+.containerM{
+    height: 1180px;
+    width: 390px;
+    margin-top: 400px;
+}
+
+.about {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 28px;
+}
+
+.menu {
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 12px;
+
+}
+
+.card {
+    color: #B872BA;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 197px;
+    height: 194px;
+}
+
+.cardCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    height: 194px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.mm {
+    align-items: center;
+    text-align: center;
+}

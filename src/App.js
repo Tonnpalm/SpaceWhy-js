@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'
+import { Routes, Route } from 'react-router-dom';
+
+//PageRoute
+import GetStart from './components/getstartpage/GetStart';
+import Menu from './components/menupage/Menu';
+import About from './components/aboutpage/About';
+import AR from './components/arpage/AR';
+import Game from './components/gamepage/Game';
+import Questionaire from './components/questionairepage/Questionaire';
+import Quiz1 from './components/quizpage/quiz1';
+import Quiz2 from './components/quizpage/quiz2';
+import Quiz3 from './components/quizpage/quiz3';
+import Rank from './components/rankingpage/rank';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Routes>
+          <Route path='/' element={<GetStart />} />
+          <Route path='menu' element={<Menu />} />
+          <Route path='about' element={<About />} />
+          <Route path='ar' element={<AR />} />
+          <Route path='game' element={<Game />} />
+          <Route path='questionaire' element={<Questionaire />} />
+          <Route path='quiz1' element={<Quiz1 />} />
+          <Route path='quiz2' element={<Quiz2 />} />
+          <Route path='quiz3' element={<Quiz3 />} />
+          <Route path='rank' element={<Rank />} />
+        </Routes>
+    )
 }
-
 export default App;

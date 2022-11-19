@@ -1,0 +1,84 @@
+.containerAbout {
+    max-width: 352px;
+    max-height: 509px;
+
+}
+
+.cardContainer {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.exit { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+.Aboutus {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.textAbout {
+    font-weight: 400;
+    font-size: 6px;
+    text-align: left;
+    line-height: 16px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 18px;
+    margin-left: 8px;
+}
+
+.text1About {
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 16px;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.nameAbout {
+    display: flex;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 16px;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+.thankAbout {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 16px;
+}
+
+.textAboutPosition {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cardAbout {
+    margin-top: 70px;
+    max-width: 352;
+    max-height: 509;
+    border-radius: '7px';
+    display: flex;
+
+}
+
+.picabout {
+    max-width: 360px;
+}
