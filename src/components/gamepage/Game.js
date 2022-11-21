@@ -5,7 +5,6 @@ import axios from 'axios';
 import './Game.css'
 
 import toast, { Toaster } from 'react-hot-toast';
-import { responsiveFontSizes } from "@mui/material";
 
   
 function Game(e) {
@@ -14,11 +13,15 @@ function Game(e) {
     const navigate = useNavigate()
     //กดปุ่มแล้วเก็บชื่อผู้เล่น
     const [ name, setName ] = useState('')
-    // function handlePlayButton() {
-    //     axios.post('http://localhost:3001/adduser', { 
-    //         user_id: name
-    //     })
-    // };
+    const createdAt= new Date();
+    function handlePlayButton() {
+        console.log(createdAt)
+        axios.post('http://localhost:3001/adduser_id', { 
+            user_id: name,
+            createdAt
+        })
+        navigate('/quiz3')
+    };
     
 
     return (
@@ -31,18 +34,17 @@ function Game(e) {
                         <div className="form-group">
                             <input
                                 type="text"
-                                value={ name }
+                                name= "name"
                                 onChange={ e => setName(e.target.value)}
                                 className="form-control"
                                 aria-describedby="emailHelp"
                                 placeholder="ใส่ชื่อ"
-                                handlePlayButton
                             />
                         </div>
                         <div className="btnAll">
                             <button 
                                 type="submit" 
-                                onClick={()=> name && navigate('/quiz1')}
+                                onClick={name && handlePlayButton}
                                 className="btn1spec"
                             >
                                 เล่น

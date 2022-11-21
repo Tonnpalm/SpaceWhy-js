@@ -9,8 +9,8 @@ import About from './components/aboutpage/About';
 import AR from './components/arpage/AR';
 import Game from './components/gamepage/Game';
 import Questionaire from './components/questionairepage/Questionaire';
+import AfterQN from './components/questionairepage/afterQN'
 import Quiz1 from './components/quizpage/quiz1';
-import Quiz2 from './components/quizpage/quiz2';
 import Quiz3 from './components/quizpage/quiz3';
 import Rank from './components/rankingpage/rank';
 
@@ -24,8 +24,8 @@ function App() {
           <Route path='ar' element={<AR />} />
           <Route path='game' element={<Game />} />
           <Route path='questionaire' element={<Questionaire />} />
+          <Route path='afterqn' element={<AfterQN />} />
           <Route path='quiz1' element={<Quiz1 />} />
-          <Route path='quiz2' element={<Quiz2 />} />
           <Route path='quiz3' element={<Quiz3 />} />
           <Route path='rank' element={<Rank />} />
         </Routes>

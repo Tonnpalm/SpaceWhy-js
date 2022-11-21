@@ -1,0 +1,41 @@
+.containerAfterQN {
+    background-color: #fff;
+    width: 390px;
+    height: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.detailInThanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgTick {
+    width:  103px;
+    margin-bottom: 20px;
+}
+
+.btnBack {
+    color: #fff;
+    margin-top: 32px;
+    background-color: #480F90;
+    border-radius: 30px;
+    height: 43px;
+    width: 190px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.textInThank {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+}

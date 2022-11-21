@@ -6,10 +6,10 @@
 
 }
 
-.detailQ {
+/* .detailQ {
     height: 844px;
     width: 390px;
-}
+} */
 
 .distance3 {
     color: #fff;
@@ -21,11 +21,11 @@
     margin-top: -40px;
 }
 
-.posit {
+/* .posit {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .posit1 {
     display: flex;
@@ -35,33 +35,33 @@
     
 }
 
-.posit2 {
+/* .posit2 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     margin-top: 24px;
-}
+} */
 
 .cardQ {
     color: #fff;;
     border: 4px solid #480F91;
-    border-radius: 12px;
+    border-radius: 5px;
     width: 288px;
     height: 240px;
     display: flex;
     justify-content: center;
 }
 
-.textQ {
+/* .textQ {
     margin: 0;
     color: #000000;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-}
+} */
 
-.textQ1 {
+/* .textQ1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,8 @@
     width: 38px;
     height: 38px;
     margin-left: -8px;
-}
+    margin-right: 20px;
+} */
 
 .textQ2 {
     display: block;
@@ -87,9 +88,9 @@
 
 }
 
-.choiceQ {
+/* .choiceQ {
     margin-top: 7px;
-}
+} */
 
 .posss {
     display: flex;

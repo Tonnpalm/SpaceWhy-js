@@ -28,6 +28,7 @@ function Quiz1() {
         }
         else 
             console.log('ผิด')
+            navigate('/quiz2')
         
     }
     useEffect(() => {
@@ -37,6 +38,12 @@ function Quiz1() {
             console.log(response.data);
         }) 
     }, [])
+
+    function putAnsToBack() {
+        axios.post('http://localhost:3001/adduser_id', { 
+            ans1: '123'
+        })
+    };
 
     if (!post) return null
     
@@ -59,7 +66,7 @@ function Quiz1() {
                             </CardContent>
                         </Card>      
                         <Card sx={{ minWidth: 300, maxHeight: 52,borderRadius: '30px'}} className='posit2'
-                        onClick = {()=>handleAns(post[0].c1,0) && navigate('/quiz2')}>
+                        onClick = {()=>handleAns(post[0].c1,0)}>
                             <CardContent className='choiceQ'>
                                 <Typography  
                                     component="div" 

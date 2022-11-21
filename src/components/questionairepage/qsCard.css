@@ -36,6 +36,30 @@
 
 .picQN1 {
     margin-left: 37px;
+    width: 10px;
+    height: 10px;
+    border: 10rem;
+    background: #ffffff;
+    border-radius: 10px;
+    border: .5px solid #000000;
+}
+.picQN2 {
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border: 10rem;
+    border: .5px solid #000000;
+    border-radius: 10px;
+}
+
+.picQN1.active {
+    margin-left: 37px;
+    width: 10px;
+    height: 10px;
+    border: 10rem;
+    background: #09A2F9;
+    border-radius: 10px;
+    border: .5px solid #000000;
 }
 
 .insideQNCard {
@@ -83,4 +107,29 @@
     border-radius: 3px;
     border: #E7E7E7;
     margin-top: 3px;
+}
+
+.sendQN {
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 23px;
+    background: #EF940C;
+    border-radius: 3px;
+    border: transparent;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 103px;
+    height: 38px;
+    margin-top: -10px;
+}
+
+.er {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
